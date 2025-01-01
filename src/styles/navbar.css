@@ -1,0 +1,36 @@
+.custom-header {
+  box-shadow: none;
+  border-bottom: 1px solid #c46cfe;
+  --background: #fbf5ff;
+}
+
+.header-content {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  width: 50px;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+ion-content {
+  --background: transparent;
+}
+
+body {
+  background: transparent;
+}

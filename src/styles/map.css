@@ -1,0 +1,9 @@
+capacitor-google-map {
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.model-content {
+  --background: #ffffff;
+}

@@ -1,0 +1,110 @@
+.add-travel-container {
+  --background: #fff;
+}
+
+.form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  top: 50px;
+  background: #fff;
+}
+
+.form-container .title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.purple-button {
+  --background: #8b32de;
+  --border-radius: 50px;
+  --color: white;
+  height: 45px;
+}
+
+.image-container {
+  position: relative;
+  width: 105px;
+  height: 105px;
+}
+
+.close-icon {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 25px;
+  color: #980d0d;
+  cursor: pointer;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.captured-image {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.input-field,
+.textarea-field {
+  border: 1px solid #e1afff;
+  border-radius: 8px;
+  padding: 0 12px !important;
+  font-size: 16px;
+  background: #fff;
+  color: #000000;
+}
+
+.input-field.error,
+.textarea-field.error {
+  border: 1px solid #d9534f;
+}
+
+.textarea-field {
+  min-height: 100px;
+  resize: none;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px dashed #e1afff;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  font-size: 14px;
+}
+
+.upload-icon {
+  font-size: 30px;
+}
+
+.input-highlight.sc-ion-input-md,
+.textarea-highlight.sc-ion-textarea-md {
+  background: #8b32de;
+}

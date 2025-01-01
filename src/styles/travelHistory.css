@@ -1,0 +1,134 @@
+.banner-section {
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.travel-history-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+  --background: #fff;
+}
+
+.travel-card {
+  box-shadow: unset;
+  overflow: hidden;
+  background: #fff;
+  margin: 20px;
+}
+
+.travel-card .header {
+  overflow: hidden;
+  padding: 0 0 15px 0;
+}
+
+.travel-card img.travel-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.travel-card .card-content {
+  padding: 0;
+}
+
+.travel-card .image-gallery {
+  display: flex;
+  gap: 3.5%;
+  flex-wrap: wrap;
+}
+
+.travel-card .title {
+  font-size: 18px;
+  color: #000;
+}
+
+.travel-card .location {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 14px;
+  color: #722170;
+  margin-top: 5px;
+}
+
+.travel-card .location .label {
+  overflow: hidden;
+}
+
+.travel-card .location .icon-wrapper {
+  width: 30px;
+  padding-top: 2px;
+}
+
+.travel-card .location .icon-wrapper .icon {
+  font-size: 18px;
+}
+
+.travel-card .date-time {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.travel-card .description {
+  font-size: 14px;
+  color: #3b3b3b;
+  text-align: justify;
+}
+
+.travel-card .location IonIcon,
+.travel-card .date-time IonIcon {
+  font-size: 18px;
+  color: #00b0ff;
+}
+
+.travel-card .location IonLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.travel-card .image-gallery .travel-photo {
+  border-radius: 8px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 31%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.search-bar .input {
+  border: 1px solid #e1afff;
+  border-radius: 25px;
+  padding: 0 12px !important;
+  font-size: 16px;
+  background: #fff;
+  color: #000000;
+}
+
+.no-records {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #727272;
+}

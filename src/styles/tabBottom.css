@@ -1,0 +1,17 @@
+.custom-tab-bar {
+  background: #f2e5fa;
+  border: unset;
+}
+
+.custom-tab-bar .icon {
+  color: #a855f7;
+  font-size: 25px;
+}
+
+.custom-tab-bar .icon.active {
+  color: #6019a2;
+}
+
+.custom-tab-button {
+  background: #fbf5ff;
+}
